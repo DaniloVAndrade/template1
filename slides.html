@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		 <title>slides</title>
+		 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		 <!-- Bootstrap -->
+		 <link href="css/bootstrap.min.css" rel="stylesheet">
+		 <link href="css/style.css" rel="stylesheet">
+	</head>
+	<body>		
+ 			
+		<header>
+		<div class="container-fluid">
+		
+			<nav class="navbar navbar-default" role="navigation">
+			<div class="navbar-header">
+				<button type = "button" class = "navbar-toggle" 
+         	data-toggle = "collapse" data-target = "#example-navbar-collapse">
+         		<span class = "sr-only">Toggle navigation</span>
+         		<span class = "icon-bar"></span>
+         		<span class = "icon-bar"></span>
+         		<span class = "icon-bar"></span>
+      			</button>
+  				<a class="navbar-brand" href="index.html">Navbar</a>
+  			</div>			
+  			<ul class="nav navbar-nav">
+    			<li class="nav-item active">
+    		  		<a class="nav-link" href="index.html"> <span class="glyphicon glyphicon-home"></span> HOME </a>
+   				</li>             	
+    			<li class="nav-item" class="dropdown">
+      				<a class="dropdown-toggle" data-toggle ="dropdown" href="#"> <span class="glyphicon glyphicon-picture"></span> GALERIA <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li class="nav-item">
+     					<a class="nav-link" href="imagens.html"> <span class="glyphicon glyphicon-picture"></span> IMAGENS 	
+     					</a>		    
+   						</li>
+   						<li class="nav-item">
+     					<a class="nav-link" href="videos.html"> <span class="glyphicon glyphicon-film"></span> VIDEOS</a>	    
+   						</li>
+					</ul>
+
+      			</li>	
+   				<li class="nav-item">
+     				<a class="nav-link" href="slides.html"> <span class="glyphicon glyphicon-film"></span> SLIDES</a>	    
+   				</li>
+    			<li class="nav-item">
+      				<a class="nav-link" href="sobre.html"><span class="glyphicon glyphicon-user"></span> QUEM SOMOS</a>
+   				</li>
+   				<li class="nav-item">
+     				<a class="nav-link" href="contato.html"><span class="glyphicon glyphicon-earphone"></span>	CONTATO</a>
+    			</li>
+  			</ul> 	
+  			<form   role="search"class="navbar-form navbar-right">
+    			<div class="form-group">
+    				<input class="form-control" type="text" placeholder="Pesquisar">
+    				<button class="btn btn-success-outline" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+    			</div>
+  			</form>
+			</nav>	
+			</div>		
+		</header><!-- /header -->
+    <div class="container">
+			<div id="slideshow" class="carousel slide" data-ride="carousel">
+
+ <!-- Wrapper para os slides -->
+ <div class="carousel-inner" role="listbox">
+ <div class="item active">
+ <img src="http://placehold.it/1200x400?text=Primeiro+Slide" class="imgresponsive"
+/>
+ </div>
+ <div class="item">
+ <img src="http://placehold.it/1200x400?text=Segundo+Slide" class="imgresponsive"
+/>
+ </div>
+ <div class="item">
+ <img src="http://placehold.it/1200x400?text=Terceiro+Slide" class="imgresponsive"
+/>
+ </div>
+ </div> <!-- /.carousel-inner -->
+ <!-- Controles de Anterior e Proximo -->
+ <a class="left carousel-control" href="#carousel-example-generic"
+role="button" data-slide="prev">
+ <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+ <span class="sr-only">Anterior</span>
+ </a>
+ <a class="right carousel-control" href="#carousel-example-generic"
+role="button" data-slide="next">
+ <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+ <span class="sr-only">Proximo</span>
+ </a>
+</div> <!-- /#slideshow -->
+
+
+
+ 		<div class="row">
+ 			
+ 			<div id="widget-texto1" class="col-md-4">
+
+ 				<h2>Texto 1</h2>
+ 					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
+amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+					</p>
+ 					<p><a class="btn btn-default" role="button" href="#">Saiba Mais »</a></p>
+ 					</div>
+ 					<div id="widget-texto2" class="col-md-4">
+ 					<h2>Texto 2</h2>
+ 					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
+amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+					</p>
+ 					<p><a class="btn btn-default" role="button" href="#">Saiba Mais »</a></p>
+ 					</div>
+ 					<div id="widget-texto3" class="col-md-4">
+ 					<h2>Texto 3</h2>
+ 					<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus
+ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit
+amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
+					</p>
+ 					<p><a class="btn btn-default" role="button" href="#">Saiba Mais »</a></p>
+ 			</div>
+ 		</div> <!-- /.widgets -->
+
+ 		<hr />
+
+
+ 		<footer>
+ 			<p class="text-muted">&copy; 2016 - Danilo Andrade</p>
+ 		</footer>
+ 		</div> <!-- /.container -->
+
+ 	<script src="js/jquery.js"></script>
+ 	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
